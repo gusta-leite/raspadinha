@@ -1,0 +1,72 @@
+@media (max-width: 768px) {
+    #not_show {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    #show_mobile {
+        display: none;
+    }
+}
+
+/* body css */
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    overflow-x: hidden;
+    background-color: #000FFC;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: none;
+}
+
+.cursor {
+    mix-blend-mode: exclusion;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 2;
+}
+
+/* */
+
+.hero{
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    margin-top: -5vh;
+    background-color: #000FFC;
+}
+
+.eye{
+    position: relative;
+    top: 0;
+}
+
+#video{
+    height: 100%;
+    width: 100%;
+    position: absolute; 
+}
+
+#screen{
+    height: 95vh;
+    width: 100vw;
+    margin: 0;
+    position: absolute;
+}
+
+.button{
+    margin-top: -18vh;
+    margin-left: 4vh;
+}
